@@ -1,7 +1,4 @@
-import Home from './Home'
-import Pay from './Pay'
+import Home from "./Home";
+import Pay from "./Pay";
 
-export {
-    Home,
-    Pay,
-}
+export { Home, Pay };

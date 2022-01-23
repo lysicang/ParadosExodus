@@ -8,7 +8,9 @@
 <script>
 import { loadStripe } from "@stripe/stripe-js";
 
-const stripePromise = loadStripe("pk_test_51KJQPnKDuYUBhWXs9HFLuy8XeMxOV7WqG00k6BoLMDEyg2ivltkbOaxCmJ8piiAv49b89uMVpokEDsEBhznbQlVI00lYrmLCEL");
+const stripePromise = loadStripe(
+  "pk_test_51KJQPnKDuYUBhWXs9HFLuy8XeMxOV7WqG00k6BoLMDEyg2ivltkbOaxCmJ8piiAv49b89uMVpokEDsEBhznbQlVI00lYrmLCEL"
+);
 
 export default {
   name: "Pay",
@@ -31,4 +33,3 @@ export default {
   },
 };
 </script>
-

@@ -1,0 +1,34 @@
+{
+    "slides": [
+        {
+            "name": "Test Slide",
+            "photo": "stock.jpg",
+            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+        },
+        {
+            "name": "Test Slide2",
+            "photo": "test1.jpg",
+            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+        },
+        {
+            "name": "Test Slide3",
+            "photo": "test2.jpg",
+            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+        },
+        {
+            "name": "Test Slide4",
+            "photo": "test3.jpg",
+            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+        },
+        {
+            "name": "Test Slide5",
+            "photo": "test4.jpg",
+            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+        },
+        {
+            "name": "Test Slide5",
+            "photo": "test5.jpg",
+            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+        }
+    ]
+}
