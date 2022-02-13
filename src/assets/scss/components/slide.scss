@@ -1,3 +1,22 @@
-.VueCarousel-slide{
+.VueCarousel-slide {
     width: 100%;
+    height: 100%;
+}
+
+.carosel_container {
+    position: relative;
+    text-align: center;
+}
+
+.carosel_image {
+    position: relative;
+    width: 100%;
+}
+
+.carosel_text {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding: 50px;
+    margin: 40px;
 }

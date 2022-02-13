@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
 }
 
@@ -6,11 +6,9 @@ body{
     background-color: #262626;
     display: flex;
     flex-direction: row;
-
-    color: aqua;
-
 }
 
 .header a {
     text-decoration: none;
+    color: #fff;
 }

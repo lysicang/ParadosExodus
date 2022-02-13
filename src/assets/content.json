@@ -3,32 +3,32 @@
         {
             "name": "Test Slide",
             "photo": "stock.jpg",
-            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+            "price": "pr1"
         },
         {
             "name": "Test Slide2",
             "photo": "test1.jpg",
-            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+            "price": "pr1"
         },
         {
             "name": "Test Slide3",
             "photo": "test2.jpg",
-            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+            "price": "pr3"
         },
         {
             "name": "Test Slide4",
             "photo": "test3.jpg",
-            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+            "price": "pr4"
         },
         {
             "name": "Test Slide5",
             "photo": "test4.jpg",
-            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+            "price": "pr5"
         },
         {
-            "name": "Test Slide5",
+            "name": "Test Slide6",
             "photo": "test5.jpg",
-            "price": "price_1KJQR4KDuYUBhWXszLPFFQfU"
+            "price": "pr6"
         }
     ]
 }

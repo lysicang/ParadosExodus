@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <div class="header">
-      <router-link to="/pay">What's on</router-link>
-      <router-link to="/pay">Contact</router-link>
+      <Slide class="links" :closeOnNavigation="true" width="150">
+        <router-link to="/whatson">What's on</router-link>
+        <router-link to="/contacts">Contact</router-link>
+      </Slide>
       <router-link class="icon" to="/">
         <img class="icon_img" src="./assets/logo.jpg" />
       </router-link>
@@ -10,3 +12,13 @@
     <router-view />
   </div>
 </template>
+
+<script>
+import { Slide } from "vue-burger-menu";
+
+export default {
+  components: {
+    Slide,
+  },
+};
+</script>

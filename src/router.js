@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import { Home, Pay } from "./views";
+import { Home, Pay, Whatson, Contacts } from "./views";
 
 Vue.use(VueRouter);
 export default new VueRouter({
@@ -14,6 +14,14 @@ export default new VueRouter({
     {
       path: "/pay",
       component: Pay,
+    },
+    {
+      path: "/whatson",
+      component: Whatson,
+    },
+    {
+      path: "/contacts",
+      component: Contacts,
     },
   ],
 });

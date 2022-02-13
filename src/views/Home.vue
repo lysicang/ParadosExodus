@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <Carousel
       :autoplay="true"
       :scrollPerPage="false"
@@ -7,12 +7,9 @@
       :perPageCustom="[[0, 1]]"
     >
       <Slide v-for="slide in slides" :key="slide.name">
-        <h3>
-          <router-link :to="'/pay?' + slide.price">{{
-            slide.name
-          }}</router-link>
-        </h3>
-        <img :src="image(slide.photo)" />
+        <router-link :to="'/pay?' + slide.price">
+          <img class="carosel_image" :src="image(slide.photo)" />
+        </router-link>
       </Slide>
     </Carousel>
   </div>
@@ -20,7 +17,7 @@
 
 <script>
 import { Carousel, Slide } from "vue-carousel";
-import { slides } from "../assets/slide.json";
+import { slides } from "../assets/content.json";
 
 export default {
   name: "Home",
