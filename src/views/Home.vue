@@ -1,15 +1,24 @@
 <template>
   <div class="content">
     <Carousel
-      :autoplay="true"
-      :scrollPerPage="false"
-      :loop="true"
-      :perPageCustom="[[0, 1]]"
+      autoplay
+      scrollPerPage
+      loop
+      :perPageCustom="[
+        [0, 1],
+        [1000, 1],
+        [1024, 3],
+      ]"
+      autoplayHoverPause
+      :paginationPadding="0"
     >
       <Slide v-for="slide in slides" :key="slide.name">
-        <router-link :to="'/pay?' + slide.price">
-          <img class="carosel_image" :src="image(slide.photo)" />
-        </router-link>
+        <img class="carosel_image" :src="image(slide.photo)" />
+        <div class="carosel_text">
+          <router-link class="cr_l" :to="'/pay?' + slide.price">
+            Buy now!
+          </router-link>
+        </div>
       </Slide>
     </Carousel>
   </div>
