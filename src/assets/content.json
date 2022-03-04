@@ -2,33 +2,50 @@
     "slides": [
         {
             "name": "Test Slide",
-            "photo": "stock.jpg",
-            "price": "pr1"
+            "photo": "stock.jpg"
         },
         {
             "name": "Test Slide2",
-            "photo": "test1.jpg",
-            "price": "pr1"
+            "photo": "test1.jpg"
         },
         {
             "name": "Test Slide3",
-            "photo": "test2.jpg",
-            "price": "pr3"
+            "photo": "test2.jpg"
         },
         {
             "name": "Test Slide4",
-            "photo": "test3.jpg",
-            "price": "pr4"
+            "photo": "test3.jpg"
         },
         {
             "name": "Test Slide5",
-            "photo": "test4.jpg",
-            "price": "pr5"
+            "photo": "test4.jpg"
         },
         {
             "name": "Test Slide6",
-            "photo": "test5.jpg",
-            "price": "pr6"
+            "photo": "test5.jpg"
         }
-    ]
+    ],
+    "description": "„Parados, Exodus is a Coventry based theatre company formed in 2021 by graduates of Coventry University. The company aims to create vibrant storytelling pieces through a combination of play, music, and chorus work. Their devised practice serves to produce stories larger than any one person can create.“",
+    "members": [
+        "Gabriela Lysičanová",
+        "Oliver Clee",
+        "Kieran Sketchley",
+        "Simi Akintokun",
+        "Matt Grist",
+        "Dean Pinnegar"
+    ],
+    "performances": [
+        {
+            "date": "7/4/2022 19:00",
+            "price": "pr1"
+        },
+        {
+            "date": "14/4/2022 19:00",
+            "price": "pr2"
+        }
+    ],
+    "lenght": "1 hour",
+    "disclaimer": "Use of harsh language and flashing lights",
+    "location": "At THE PHOENIX \n 122 Gosford st, CV15DL",
+    "playDescription": "It is said some see, circling overhead, not angels but vultures instead.\n The Black Angels are hungry for the old man's flesh, but all Peter can think of in his final breath is his wife's lost song. Through their differences, this band of punk vultures must recount the couple's story of love, life and music before The Man arrives and Peter's fate is sealed. /Parados, Exodus' debut play is a vibrant and heartfelt storytelling experience. The chorus of birds invite the audience into an immersive gig theatre space to clap along and bear witness to the story of the Angels uprising, and an old man's final memory."
 }

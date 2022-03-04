@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="app">
     <div class="header">
       <Slide class="links" :closeOnNavigation="true" width="150">
         <router-link to="/whatson">What's on</router-link>
@@ -10,6 +10,9 @@
       </router-link>
     </div>
     <router-view />
+    <footer class="footer">
+      <router-link to="/contacts">Contact</router-link>
+    </footer>
   </div>
 </template>
 
