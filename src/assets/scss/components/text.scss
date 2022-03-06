@@ -1,0 +1,31 @@
+.description {
+    text-align: center;
+    margin: 2rem;
+}
+.member {
+    text-align: center;
+}
+.members {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    text-align: center;
+    
+}
+.members > p {
+    flex: 1;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+.location {
+    background-color: black;
+    text-align: center;
+}
+.performances {
+    margin: 0 1rem;
+}
+.performance_date {
+    margin: 0.5rem 0;
+}

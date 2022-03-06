@@ -2,11 +2,11 @@
   <div class="content">
     <Slider />
     <div class="description">{{ description }}</div>
+    <p class="member">Members</p>
     <div class="members">
-      Members:
       <p v-for="member in members" :key="member">{{ member }}</p>
     </div>
-    <img src="../assets/photos/actors.jpg" />
+    <img class="actors" src="../assets/photos/actors.jpg" />
   </div>
 </template>
 
