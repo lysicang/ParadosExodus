@@ -37,3 +37,14 @@ export default {
   },
 };
 </script>
+<style>
+.bm-burger-button {
+  cursor: pointer;
+  height: 30px;
+  top: 0;
+  left: 0;
+  position: relative;
+  width: 36px;
+  margin: 0.7rem;
+}
+</style>
