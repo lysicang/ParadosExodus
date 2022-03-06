@@ -1,28 +1,24 @@
 {
     "slides": [
         {
-            "name": "Test Slide",
-            "photo": "stock.jpg"
+            "photo": "benjike1.png"
         },
         {
-            "name": "Test Slide2",
-            "photo": "test1.jpg"
-        },
-        {
-            "name": "Test Slide3",
-            "photo": "test2.jpg"
-        },
-        {
-            "name": "Test Slide4",
-            "photo": "test3.jpg"
-        },
-        {
-            "name": "Test Slide5",
-            "photo": "test4.jpg"
-        },
-        {
-            "name": "Test Slide6",
-            "photo": "test5.jpg"
+            "photo": "benjike2.png"
+        },        {
+            "photo": "benjike3.png"
+        },        {
+            "photo": "benjike4.png"
+        },        {
+            "photo": "benjike5.png"
+        },        {
+            "photo": "benjike6.png"
+        },        {
+            "photo": "benjike7.png"
+        },        {
+            "photo": "benjike8.png"
+        },        {
+            "photo": "benjike posledny.png"
         }
     ],
     "description": "„Parados, Exodus is a Coventry based theatre company formed in 2021 by graduates of Coventry University. The company aims to create vibrant storytelling pieces through a combination of play, music, and chorus work. Their devised practice serves to produce stories larger than any one person can create.“",
