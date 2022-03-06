@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <h3>Payment</h3>
-    <button v-on:click="handleClick">Pay</button>
-  </div>
+  <a v-on:click="handleClick">BUY NOW</a>
 </template>
 
 <script>
@@ -13,7 +10,6 @@ const stripePromise = loadStripe(
 );
 
 export default {
-  name: "Pay",
   methods: {
     handleClick: async function () {
       // When the customer clicks on the button, redirect them to Checkout.
