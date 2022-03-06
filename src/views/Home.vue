@@ -6,6 +6,7 @@
       Members:
       <p v-for="member in members" :key="member">{{ member }}</p>
     </div>
+    <img src="../assets/photos/actors.jpg" />
   </div>
 </template>
 
