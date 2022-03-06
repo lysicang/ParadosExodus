@@ -1,7 +1,35 @@
 .footer {
+    display: flex;
     width: 100%;
     text-align: center;
-    align-self: flex-end;
-    background-color: #A5A5A5;
-    padding: 1rem;
+    align-self: center;
+    background-color: #a5a5a5;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.footer > * > .icon {
+    height: 1rem;
+    margin: 0 0.7rem;
+}
+
+.footer > .link {
+    text-align: center;
+    align-self: center;
+}
+
+.footer > .l {
+    justify-self: flex-start;
+    display: flex;
+    justify-content: center;
+}
+.footer > .r {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > .m {
+    justify-self: center;
+    margin: auto;
 }
