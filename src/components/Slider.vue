@@ -13,11 +13,6 @@
   >
     <Slide v-for="slide in slides" :key="slide.name">
       <img class="carosel_image" :src="image(slide.photo)" />
-      <div class="carosel_text">
-        <router-link class="cr_l" to="/whatson"
-          ><button>BOOK NOW</button></router-link
-        >
-      </div>
     </Slide>
   </Carousel>
 </template>

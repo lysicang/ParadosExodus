@@ -23,12 +23,12 @@
     ],
     "description": "„Parados, Exodus is a Coventry based theatre company formed in 2021 by graduates of Coventry University. The company aims to create vibrant storytelling pieces through a combination of play, music, and chorus work. Their devised practice serves to produce stories larger than any one person can create.“",
     "members": [
-        "Gabriela Lysičanová",
-        "Oliver Clee",
-        "Kieran Sketchley",
-        "Simi Akintokun",
-        "Matt Grist",
-        "Dean Pinnegar"
+        ["Gabriela","Lysičanová"],
+        ["Oliver","Clee"],
+        ["Kieran","Sketchley"],
+        ["Simi","Akintokun"],
+        ["Matt","Grist"],
+        ["Dean","Pinnegar"]
     ],
     "performances": [
         {

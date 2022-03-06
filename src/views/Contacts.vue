@@ -1,15 +1,15 @@
 <template>
   <div class="content">
     <div class="info">
-      If you have any inquiries please don't hesitate to contact us!
+      If you have any enquiries, don't hesitate to contact us!
     </div>
-    <div class="contact">
+    <div class="contact_mail">
       <!-- <img class="icon" src="../assets/icons/ml.png" /> -->
       <a class="icon" href="mailto: Parados.exodus@gmail.com"
         >Parados.exodus@gmail.com</a
       >
     </div>
-    <div class="info">And give us a follow on social our media accounts!</div>
+    <div class="info">And give us a follow on our social media accounts!</div>
     <div class="contact">
       <img class="icon" src="../assets/icons/ig.png" />
       <a

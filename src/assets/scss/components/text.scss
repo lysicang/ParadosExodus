@@ -1,6 +1,6 @@
 .description {
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
 }
 .member {
     text-align: center;
@@ -10,22 +10,49 @@
     align-items: stretch;
     width: 100%;
     text-align: center;
-    
 }
-.members > p {
+.members > div {
     flex: 1;
+}
+.members > div > p {
+    margin: 0;
+}
+.members > div > br {
+    content: "";
 }
 .contact {
     display: flex;
     flex-direction: row;
 }
 .location {
+    width: 100%;
     background-color: black;
     text-align: center;
+    padding: 1rem;
 }
 .performances {
-    margin: 0 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.performance {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .performance_date {
-    margin: 0.5rem 0;
+    margin: 0.5rem;
+}
+.performance_link {
+    margin: 0.5rem;
+}
+.lenght{
+    margin: 0.5rem;
+    align-self: center;
+}
+.disclaimer{
+    margin: 0.5rem;
+    align-self: center;
+    margin-bottom: 4rem;
 }

@@ -4,15 +4,20 @@
 .contact {
     display: flex;
     text-align: center;
+    margin-left: 2rem;
+}
+.contact_mail {
+    display: flex;
+    text-align: center;
+    margin-left: 5rem;
 }
 .contact > a {
     align-self: center;
     margin: 0.5rem;
     color: white;
 }
-
-.contact > .icon {
-    height: 2rem;
-    width: auto;
-    margin: 0.5rem 2rem;
+.contact_mail > a {
+    align-self: center;
+    margin: 0.5rem;
+    color: white;
 }

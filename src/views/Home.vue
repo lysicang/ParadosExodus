@@ -4,7 +4,11 @@
     <div class="description">{{ description }}</div>
     <p class="member">Members</p>
     <div class="members">
-      <p v-for="member in members" :key="member">{{ member }}</p>
+      <div v-for="member in members" :key="member[0] + member[1]">
+        <p>{{ member[0] }}</p>
+        <br />
+        <p>{{ member[1] }}</p>
+      </div>
     </div>
     <img class="actors" src="../assets/photos/actors.jpg" />
   </div>
