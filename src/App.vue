@@ -41,15 +41,24 @@ export default {
   components: {
     Slide,
   },
+  mounted: function () {
+    const bm = document.querySelector(".bm-burger-button");
+    bm.style.height = "30px";
+    bm.style.top = 0;
+    bm.style.left = 0;
+    bm.style.position = "relative";
+    bm.style.width = "36px";
+    bm.style.margin = "0.7rem";
+  },
 };
 </script>
 <style lang="scss">
-.bm-burger-button {
-  height: 30px;
-  top: 0;
-  left: 0;
-  position: relative;
-  width: 36px;
-  margin: 0.7rem;
-}
+// .bm-burger-button {
+//   height: 30px;
+//   top: 0;
+//   left: 0;
+//   position: relative;
+//   width: 36px;
+//   margin: 0.7rem;
+// }
 </style>
