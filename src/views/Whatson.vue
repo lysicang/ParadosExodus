@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <img src="../assets/photos/whatson.png" />
+    <img class="wio" src="../assets/photos/whatson.png" />
     <div class="location">{{ location }}</div>
     <div class="performances">
       <div
