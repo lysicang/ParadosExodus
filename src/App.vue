@@ -1,7 +1,13 @@
 <template>
   <div id="app" class="app">
     <header>
-      <Slide class="links" :closeOnNavigation="true" width="150">
+      <Slide
+        burgerIcon
+        crossIcon
+        class="links"
+        :closeOnNavigation="true"
+        width="150"
+      >
         <router-link to="/whatson">What's on</router-link>
         <router-link to="/contacts">Contact</router-link>
       </Slide>
@@ -37,9 +43,8 @@ export default {
   },
 };
 </script>
-<style>
+<style lang="scss">
 .bm-burger-button {
-  cursor: pointer;
   height: 30px;
   top: 0;
   left: 0;
