@@ -22,8 +22,6 @@ export default {
           },
         ],
         mode: "payment",
-        successUrl: "https://example.com/success",
-        cancelUrl: "https://example.com/cancel",
       });
     },
   },
