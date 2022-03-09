@@ -6,7 +6,7 @@
 import { loadStripe } from "@stripe/stripe-js";
 
 const stripePromise = loadStripe(
-  "pk_test_51KJQPnKDuYUBhWXs9HFLuy8XeMxOV7WqG00k6BoLMDEyg2ivltkbOaxCmJ8piiAv49b89uMVpokEDsEBhznbQlVI00lYrmLCEL"
+  "pk_live_51KJQPnKDuYUBhWXst6yLjS2w7JE1YCBOQy7WmDos5yF3LVQfoHfWZ5to1TngYrSmMXlUihNRgqKQP2e7XvoFSVGz005qyMJZ75"
 );
 
 export default {
@@ -17,7 +17,7 @@ export default {
       await stripe.redirectToCheckout({
         lineItems: [
           {
-            price: "price_1KJQR4KDuYUBhWXszLPFFQfU", // Replace with the ID of your price
+            price: "price_1KbX5uKDuYUBhWXsoFRltCky", // Replace with the ID of your price
             quantity: 1,
           },
         ],
