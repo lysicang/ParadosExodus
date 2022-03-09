@@ -22,6 +22,8 @@ export default {
           },
         ],
         mode: "payment",
+        successUrl: "<%= BASE_URL %>/#/success",
+        cancelUrl: "<%= BASE_URL %>/#/cancel",
       });
     },
   },
