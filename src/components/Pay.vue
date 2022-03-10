@@ -4,9 +4,7 @@
 
 <script>
 import { loadStripe } from "@stripe/stripe-js";
-const stripePromise = loadStripe(
-  "pk_live_51KJQPnKDuYUBhWXst6yLjS2w7JE1YCBOQy7WmDos5yF3LVQfoHfWZ5to1TngYrSmMXlUihNRgqKQP2e7XvoFSVGz005qyMJZ75"
-);
+const stripePromise = loadStripe("");
 export default {
   name: "Pay",
   methods: {
@@ -16,7 +14,7 @@ export default {
       await stripe.redirectToCheckout({
         lineItems: [
           {
-            price: "price_1KbX5uKDuYUBhWXsoFRltCky", // Replace with the ID of your price
+            price: "", // Replace with the ID of your price
             quantity: 1,
           },
         ],
