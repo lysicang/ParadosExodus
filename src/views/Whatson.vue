@@ -3,14 +3,7 @@
     <img class="wio" src="../assets/photos/whatson.png" />
     <div class="location">{{ location }}</div>
     <div class="performances">
-      <div
-        class="performance"
-        v-for="performance in performances"
-        :key="performance.date"
-      >
-        <div class="performance_date">{{ performance.date }}</div>
-        <Pay class="performance_link" :price="performance.price" />
-      </div>
+      <a href="https://www.eventbrite.co.uk/e/299014017977">BUY NOW</a>
       <div class="description">
         "It is said some see, circling overhead, not angels but vultures
         instead."
@@ -35,7 +28,6 @@
 </template>
 
 <script>
-import Pay from "../components/Pay.vue";
 import {
   location,
   performances,
@@ -53,7 +45,6 @@ export default {
       disclaimer,
     };
   },
-  components: { Pay },
   methods: {
     image: (path) => require(`../assets/photos/${path}`),
   },
